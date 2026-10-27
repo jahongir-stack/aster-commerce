@@ -22,7 +22,8 @@
 git clone https://github.com/jahongir-stack/aster-commerce.git
 cd aster-commerce
 python -m venv .venv
-# Windows: .venv\\Scripts\\activate
+# Windows (Command Prompt): .venv\Scripts\activate.bat
+# Windows (PowerShell): .venv\Scripts\Activate.ps1
 # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
 python app.py
